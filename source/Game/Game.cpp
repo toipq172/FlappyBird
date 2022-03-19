@@ -123,6 +123,7 @@ int Game::getScoreRecord()
 
 int Game::getScreenHeight()
 {
+    scoreRecord = 5;
     return screenHeight;
 }
 
